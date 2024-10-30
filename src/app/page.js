@@ -4,6 +4,6 @@ export default async function Home() {
     'https://cupapi-becchgewhyfydfba.canadacentral-01.azurewebsites.net/api/cup/'
   );
   let allData = await data.json();
-
+  //This is a test
   return <Content data={allData}></Content>;
 }
