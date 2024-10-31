@@ -6,7 +6,7 @@ import Footer from './Footer';
 import { Tournaments } from './Tournaments';
 import { useState } from 'react';
 import ChakraNextLink from './Link';
-
+//test
 export default function Content({ data }) {
   const [filteredData, setFilteredData] = useState(data);
 
