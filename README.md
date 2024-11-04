@@ -3,7 +3,7 @@
 A comprehensive web application that provides a centralized platform for discovering youth soccer tournaments across Sweden. Data is retrieved from the Svenska Fotbollförbundet website to offer a user-friendly interface for searching, filtering, and finding relevant tournaments.
 
 ## Visit
-[https://allafotbollscuper.se](https://allafotbollscuper.se)
+[https://allacuper.se](https://allacuper.se)
 
 
 **Please note that some features are not yet ready.**
@@ -23,19 +23,20 @@ As a coach, I struggled to find a user-friendly platform for discovering youth s
 
 * Next.js
 * Python
+* C#
+* SQL server
 
 ## Installation
 ### Prerequisites
 * Node.js and npm installed
 ### Installation
 ```bash
-git clone https://github.com/henlars/allafotbollscuper.git
-cd allafotbollscuper
+git clone https://github.com/henlars/allafotbollscuper_frontend_azure.git
+cd allafotbollscuper_frontend_azure
 npm install
 ```
 
 ## Quick Start
-(It is not live yet but it is meant to develop at allafotbollscuper.se)
 
 First, run the development server:
 
