@@ -27,7 +27,7 @@ const Footer = () => {
         alignItems={'center'}
       >
         <Text color={'white'} fontSize={{ sm: 'xs', md: 'lg', lg: '2xl' }}>
-          © {currentYear} allafotbollscuper.se
+          © {currentYear} allacuper.se
         </Text>
       </Flex>
       <Flex w={'50%'} justifyContent={'center'} h={'100%'}>

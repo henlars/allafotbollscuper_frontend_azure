@@ -36,7 +36,7 @@ export default function Content({ data }) {
               xl: 'xx-large',
             }}
           >
-            allafotbollscuper.se
+            allacuper.se
           </Text>
         </ChakraNextLink>
         <Center
