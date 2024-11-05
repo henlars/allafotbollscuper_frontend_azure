@@ -94,6 +94,8 @@ export const Tournaments = ({ tournaments }) => {
                   fill
                   sizes='50px'
                   alt='grid selected'
+                  placeholder='blur'
+                  lazyLoading
                 ></Image>
               </Flex>
               <Flex
@@ -115,6 +117,8 @@ export const Tournaments = ({ tournaments }) => {
                   fill
                   sizes='50px'
                   alt='list unselected'
+                  placeholder='blur'
+                  lazyLoading
                 ></Image>
               </Flex>
             </>
@@ -139,6 +143,8 @@ export const Tournaments = ({ tournaments }) => {
                   fill
                   sizes='30px'
                   alt='grid unselected'
+                  placeholder='blur'
+                  lazyLoading
                 ></Image>
               </Flex>
               <Flex
@@ -152,6 +158,8 @@ export const Tournaments = ({ tournaments }) => {
                   fill
                   sizes='30px'
                   alt='list selected'
+                  placeholder='blur'
+                  lazyLoading
                 ></Image>
               </Flex>
             </>

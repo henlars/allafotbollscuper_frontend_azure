@@ -26,7 +26,14 @@ function Card({ county, name, club, date, categoriesSummary, link, index }) {
         overflow='hidden'
       >
         <Flex position='relative' w={'100%'} p='33%'>
-          <Image fill src={images[index]} alt={name} sizes={'300px'} />
+          <Image
+            fill
+            src={images[index]}
+            alt={name}
+            sizes={'300px'}
+            placeholder='blur'
+            lazyLoading
+          />
         </Flex>
         <Box p={'15px'}>
           <Flex

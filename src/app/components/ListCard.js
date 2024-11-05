@@ -34,7 +34,14 @@ function ListCard({
         margin={'auto'}
       >
         <Flex position='relative' w={'10%'}>
-          <Image fill src={images[index]} alt={name} sizes={'100px'} />
+          <Image
+            fill
+            src={images[index]}
+            alt={name}
+            sizes={'100px'}
+            placeholder='blur'
+            lazyLoading
+          />
         </Flex>
         <Box
           width={'40%'}

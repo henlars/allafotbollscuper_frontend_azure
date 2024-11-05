@@ -21,6 +21,8 @@ export default function Content({ data }) {
           alt='Image description'
           fill
           priority
+          placeholder='blur'
+          lazyLoading
         />
         <ChakraNextLink href={'/'}>
           <Text
