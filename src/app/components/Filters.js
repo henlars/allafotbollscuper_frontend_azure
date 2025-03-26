@@ -26,6 +26,7 @@ export default function Filters({ data, onFilter }) {
     counties: [],
     year: '2025',
   });
+  //added comment to trigger update
   const counties = [
     'Västra götalands län',
     'Stockholm',
